@@ -1,7 +1,6 @@
 {
     "name": "smaoer/avatar",
     "description": "生成文件头像",
-    "type": "library",
     "autoload": {
         "psr-4": {
             "Smaoer\\Avatar\\": "src/"
@@ -15,5 +14,15 @@
     ],
     "license": "MIT",
     "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
     }
 }
