@@ -1,10 +1,10 @@
 {
-    "name": "cxp/avatar",
+    "name": "smaoer/avatar",
     "description": "生成文件头像",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Cxp\\Avatar\\": "src/"
+            "Smaoer\\Avatar\\": "src/"
         }
     },
     "authors": [

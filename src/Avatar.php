@@ -8,7 +8,7 @@
  * Date: 2019-01-10
  * Time: 14:06
  */
-namespace Cxp\Avatar;
+namespace Smaoer\Avatar;
 use Illuminate\Config\Repository;
 class Avatar {
     protected $config;

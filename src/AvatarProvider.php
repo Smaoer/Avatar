@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Cxp\Avatar;
+namespace Smaoer\Avatar;
 use Illuminate\Support\ServiceProvider;
 class AvatarProvider extends ServiceProvider
 {
