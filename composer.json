@@ -13,6 +13,7 @@
             "email": "gaolm@jvtd.cn"
         }
     ],
+    "license": "MIT",
     "require": {
         "illuminate/support": "^9.47"
     }
