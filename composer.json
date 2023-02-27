@@ -1,7 +1,7 @@
 {
     "name": "smaoer/avatar",
     "description": "生成文件头像",
-    "type": "project",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Smaoer\\Avatar\\": "src/"
@@ -15,6 +15,7 @@
     ],
     "license": "MIT",
     "require": {
+        "php": "^7.2",
         "illuminate/support": "^9.47"
     }
 }
