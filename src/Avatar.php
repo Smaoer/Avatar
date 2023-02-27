@@ -34,7 +34,7 @@ class Avatar {
         // 填充背景色
         imagefill($img_res, 1, 1, $bg_color);
         // 计算文字的宽高
-        $pos = imagettfbbox($this->config['size'], 0, $this->config['font_file'], mb_substr($name, 0, 1));
+        $pos = imagettfbbox($this->config['size'], 0, $this->config['font_file'], mb_substr($name, 0, 3));
         $font_width = $pos[2] - $pos[0] + 0.32 * $this->config['size'];
         $font_height = $pos[1] - $pos[5] + -0.16 * $this->config['size'];
         // 写入文字
