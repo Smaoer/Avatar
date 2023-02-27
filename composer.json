@@ -1,0 +1,19 @@
+{
+    "name": "cxp/avatar",
+    "description": "生成文件头像",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Cxp\\Avatar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maoer",
+            "email": "gaolm@jvtd.cn"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^9.47"
+    }
+}
